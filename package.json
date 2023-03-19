@@ -18,7 +18,6 @@
     "@testing-library/jest-dom": "^5.16.5",
     "jsdom": "^21.1.1",
     "miragejs": "^0.1.47",
-    "solid-testing-library": "^0.5.1",
     "start-server-and-test": "^2.0.0",
     "typescript": "^5.0.2",
     "vite": "^4.2.0",
