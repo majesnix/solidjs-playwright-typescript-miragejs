@@ -1,5 +1,7 @@
-name: Playwright Tests
+name: Tests
+
 on:
+  workflow_call:
   push:
     branches: [main, master]
   pull_request:
