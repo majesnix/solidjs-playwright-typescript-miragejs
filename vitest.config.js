@@ -3,6 +3,7 @@
 // 👆 do not forget to add the references above 
 import { defineConfig } from 'vite';
 import solidPlugin from 'vite-plugin-solid';
+import { configDefaults } from "vitest"
 
 export default defineConfig({
   plugins: [solidPlugin()],
@@ -16,5 +17,6 @@ export default defineConfig({
     environment: 'jsdom',
     globals: true,
     transformMode: { web: [/\.[jt]sx?$/] },
+    exclude: ['node_modules', '**/tests/*']
   }
 });
